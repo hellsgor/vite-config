@@ -1,3 +1,3 @@
-import '/src/styles/style.scss';
+import '@styles/style.scss';
 
 console.log('i am main');

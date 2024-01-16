@@ -14,4 +14,10 @@ export default defineConfig({
       },
     },
   },
+  resolve: {
+    alias: {
+      '@styles': resolve(__dirname, 'src/styles'),
+      '@pages': resolve(__dirname, 'src/pages'),
+    },
+  },
 });
