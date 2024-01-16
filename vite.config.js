@@ -9,8 +9,8 @@ export default defineConfig({
   build: {
     rollupOptions: {
       input: {
-        index: resolve(__dirname, '/index.html'),
-        second: resolve(__dirname, '/src/pages/second/second.html'),
+        index: resolve(__dirname, '/'),
+        second: resolve(__dirname, '/second/'),
       },
     },
   },
