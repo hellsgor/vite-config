@@ -1,0 +1,12 @@
+@import 'normalize.css';
+@import 'null-styles';
+@import 'fonts';
+@import 'variables';
+@import 'typography';
+
+body {
+  background-color: $background-color;
+  display: flex;
+  flex-direction: column;
+  user-select: none;
+}
