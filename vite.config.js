@@ -18,6 +18,7 @@ export default defineConfig({
     alias: {
       '@styles': resolve(__dirname, 'src/styles'),
       '@pages': resolve(__dirname, 'src/pages'),
+      '@fonts': resolve(__dirname, 'public/fonts'),
     },
   },
 });
