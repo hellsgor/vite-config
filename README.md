@@ -1,1 +1,1 @@
-# Vite / Pug / SCSS
+# Vite build
